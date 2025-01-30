@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Media Profile</title>
+</head>
+<body>
+  <a id="top"></a>
+
+  <!-- Navigation Links -->
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="application.html">Application Form</a> |
+    <a href="table.html">Courses</a>
+  </nav>
+
+  <!-- Responsive Picture Element -->
+  <h2>About Me</h2>
+  <picture>
+    <!-- Different images for different devices -->
+    <source media="(max-width: 480px)" srcset="your-mobile-image.jpg">
+    <source media="(max-width: 768px)" srcset="your-tablet-image.jpg">
+    <source media="(min-width: 769px)" srcset="your-laptop-image.jpg">
+    <img src="SAVE_20250130_161128.jpg" alt="A picture of me">
+  </picture>
+
+  <!-- Audio Element -->
+  <h2>My Introduction Audio</h2>
+  <audio controls>
+    <source src="Altschool audio.m4a" type="audio/mpeg">
+  </audio>
+
+
+  <!-- Figure/Figcaption -->
+  <figure>
+    <img src="Achievement.jpg" alt="My Achievement">
+    <figcaption>One of my proudest moments, hosting a successful dinner for my collegues.</figcaption>
+  </figure>
+
+  <!-- Back to Top -->
+  <p><a href="#top">Back to Top</a></p>
+</body>
+</html>
